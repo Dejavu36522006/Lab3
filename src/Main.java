@@ -12,6 +12,7 @@ public class Main {
         Cavalier cavalier = new Cavalier(35, "Pomidor", Job.CAVALIER, "Crying");
 
         ArrayList <Vegetable> visitors=new ArrayList<>();
+        System.out.println("нига");
         visitors.add(musician);
         visitors.add(cavalier);
         workshop.newVisitor(musician);
